@@ -6,7 +6,7 @@ class RockPaperScissors:
         self.root = root
         self.root.title("Piedra, Papel, Tijera")
         self.root.geometry("600x600")
-        
+       
         # Crea un marco para los botones
         self.button_frame = tk.Frame(root)
         self.button_frame.pack(side=tk.BOTTOM, pady=20)
