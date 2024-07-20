@@ -55,8 +55,9 @@ class RockPaperScissors:
         # Limpia el lienzo antes de mostrar un nuevo mensaje
         self.canvas.delete("all")
         # Muestra los mensajes en el centro del lienzo en dos líneas diferentes
-        self.canvas.create_text(300, 220, text=user_message, font=("Arial", 24), fill="black")
-        self.canvas.create_text(300, 280, text=computer_message, font=("Arial", 24), fill="black")
+        self.canvas.create_text(300, 100, text=user_message, font=("Arial", 24), fill="black")
+        self.canvas.create_text(300, 150, text=computer_message, font=("Arial", 24), fill="black")
+
 
 if __name__ == "__main__":
     root = tk.Tk()  # Crea la ventana principal de Tkinter
